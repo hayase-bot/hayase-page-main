@@ -1,16 +1,20 @@
 const Links = [
     {
         title: '이용약관 및 정책',
+        key: 'terms_list',
         links: [
             {
+                key: 'terms',
                 label: '서비스 이용 약관',
                 href: '/terms'
             },
             {
+                key: 'privacy',
                 label: '개인정보 처리 방침',
                 href: '/privacy'
             },
             {
+                key: 'refund',
                 label: '환불 정책',
                 href: '/refund'
             }
@@ -18,12 +22,15 @@ const Links = [
     },
     {
         title: '지원 및 커뮤니티',
+        key: 'support',
         links: [
             {
+                key: 'discord',
                 label: '공식 디스코드',
                 href: 'https://discord.gg/MwU25zdRFG'
             },
             {
+                key: 'dev_email',
                 label: '개발자 이메일',
                 href: 'mailto:blackwaterbread@gmail.com'
             }
@@ -49,14 +56,14 @@ const style = {
 
 export default function FooterLinks() {
     const areas = Links.map(x => (
-        <div>
+        <div key={x.key}>
             <p className={style.title}>
                 {x.title}
             </p>
             <div>
                 {x.links.map(v => {
                     return (
-                        <a rel="noreferrer" href={v.href}>
+                        <a rel="noreferrer" key={v.key} href={v.href}>
                             <p className={style.link}>{v.label}</p>
                         </a>
                     )

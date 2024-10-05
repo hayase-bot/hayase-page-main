@@ -10,11 +10,13 @@ const Menus = [
     // },
     {
         label: '대시보드',
+        key: 'dashboard',
         href: '/dashboard',
         isDevelop: true,
     },
     {
         label: '서버 상태',
+        key: 'status',
         href: 'https://status.hayasebot.app',
         isDevelop: false,
     },
@@ -35,6 +37,7 @@ export default function Navigation() {
         <a
             className='inline-block font-bold text-white opacity-85 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out'
             // href={x.href}
+            key={x.key}
             href={x.isDevelop ? '#!' : x.href}
             onClick={x.isDevelop ? () => alert('준비중입니다.'): undefined}
         >
@@ -46,6 +49,7 @@ export default function Navigation() {
         <a
             className='font-bold text-white opacity-85 no-underline hover:text-underline text-center'
             // href={x.href}
+            key={x.key}
             href={x.isDevelop ? '#!' : x.href}
             onClick={x.isDevelop ? () => alert('준비중입니다.'): undefined}
         >
