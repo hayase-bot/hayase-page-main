@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hayasebot.app
+
+# Sitemaps
+Sitemap: https://hayasebot.app/sitemap.xml

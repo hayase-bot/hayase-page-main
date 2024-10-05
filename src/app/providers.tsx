@@ -1,5 +1,6 @@
 // app/providers.tsx
 'use client'
+import Image from "next/image";
 import { ChakraProvider } from '@chakra-ui/react'
 import Alert from '@/component/server/Alert';
 import Navigation from '@/component/client/Navigation';

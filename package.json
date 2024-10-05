@@ -7,6 +7,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
+        "postbuild": "next-sitemap",
         "pages:build": "npx @cloudflare/next-on-pages",
         "preview": "npm run pages:build && wrangler pages dev",
         "deploy": "npm run pages:build && wrangler pages deploy"
@@ -19,6 +20,7 @@
         "@emotion/styled": "^11.13.0",
         "framer-motion": "^11.11.1",
         "next": "^14.2.14",
+        "next-sitemap": "^4.2.3",
         "notion-client": "^6.16.0",
         "react": "^18",
         "react-dom": "^18",
@@ -27,7 +29,6 @@
     },
     "devDependencies": {
         "@cloudflare/next-on-pages": "^1.13.5",
-        "@cloudflare/workers-types": "^4.20241004.0",
         "@types/node": "^20",
         "@types/react": "^18",
         "@types/react-dom": "^18",

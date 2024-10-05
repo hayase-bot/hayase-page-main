@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@chakra-ui/react";
 import { MdAddTask, MdAutoStories } from "react-icons/md";
 
@@ -47,7 +48,7 @@ function Main() {
 
                 <div className="w-full py-4 overflow-hidden">
                     {/* <img className="mx-auto w-full transform transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="/assets/images/discord0.png" alt="app" /> */}
-                    <img className="mx-auto w-full rounded-lg" src="/assets/images/main_banner.png" alt="app" />
+                    <Image src="/assets/images/main_banner.png" alt="main_banner" width={1200} height={1200} priority />
                 </div>
             </div>
 
