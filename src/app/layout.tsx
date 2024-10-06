@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: 'Hayase',
     title: 'Hayase - 실시간 게임서버 현황 디스코드 봇',
     description: '게임서버의 상태를 디스코드 채널에 실시간으로 갱신합니다.',
-    images: '/assets/images/og.webp'
+    images: '/assets/images/static/og.webp'
   },
   twitter: {
     site: '@discord_hayase',
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: 'Hayase - 실시간 게임서버 현황 디스코드 봇',
     description: '게임서버의 상태를 디스코드 채널에 실시간으로 갱신합니다.',
     card: 'summary_large_image',
-    images: '/assets/images/og.webp',
+    images: '/assets/images/static/og.webp',
   }
 };
 

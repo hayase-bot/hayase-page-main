@@ -7,7 +7,7 @@ function Main() {
     <div className='px-8 py-12 md:py-0 md:px-0'>
       {/* 본문 */}
       <div className="mx-auto w-full container py-8 xl:py-32 space-y-12 md:space-y-0 flex flex-col xl:flex-row items-center">
-        <div className='flex flex-col w-full space-y-6 animate__animated animate__fadeInDown animate__fast'>
+        <div className='flex flex-col w-full space-y-6 animate__animated animate__fadeIn animate__fast'>
           <div className="flex flex-col space-y-2 md:space-y-4 w-full justify-center overflow-y-hidden leading-normal tracking-normal">
             <h1 className="select-none font-bold text-3xl lg:text-4xl xl:text-5xl text-white opacity-80">
               It just works.
@@ -48,7 +48,7 @@ function Main() {
 
         <div className="w-full py-4 overflow-hidden">
           {/* <img className="mx-auto w-full transform transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="/assets/images/discord0.png" alt="app" /> */}
-          <Image className='animate__animated animate__fadeIn' src="/assets/images/main_banner.webp" alt="main_banner" width={1200} height={1200} priority />
+          <Image className='animate__animated animate__fadeIn' src="/assets/images/static/main_banner.webp" alt="main_banner" width={1200} height={1200} priority />
         </div>
       </div>
 
