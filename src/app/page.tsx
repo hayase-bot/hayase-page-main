@@ -21,7 +21,7 @@ function Main() {
             {/* <Button leftIcon={<MdAddTask />} paddingX='48px' paddingY='28px' size='lg' colorScheme='purple'> */}
             <Button
               as='a'
-              href='https://discord.com/oauth2/authorize?client_id=1282545480630272010&permissions=2147485696&integration_type=0&scope=bot'
+              href='https://discord.com/oauth2/authorize?client_id=1282545480630272010&permissions=2147485712&integration_type=0&scope=bot'
               leftIcon={<MdAddTask />}
               paddingX={{ base: '12px', md: '24px', lg: '36px' }}
               paddingY={{ base: '7px', md: '14px', lg: '21px' }}
