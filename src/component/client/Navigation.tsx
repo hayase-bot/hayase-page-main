@@ -4,15 +4,18 @@ import { Box, Button } from '@chakra-ui/react';
 import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons';
 
 const Menus = [
-  // {
-  //     label: '문서',
-  //     href: '/docs'
-  // },
+  /*
   {
     label: '대시보드',
     key: 'dashboard',
     href: '/dashboard',
     isDevelop: true,
+  },
+  */
+  {
+    label: '문서',
+    key: 'docks',
+    href: 'https://docs.hayasebot.app'
   },
   {
     label: '서버 상태',

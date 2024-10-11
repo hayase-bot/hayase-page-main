@@ -18,7 +18,6 @@ function Main() {
           </div>
 
           <div className="flex flex-col space-y-2 w-2/3 md:w-full md:p-0 md:block md:space-y-0 md:space-x-2">
-            {/* <Button leftIcon={<MdAddTask />} paddingX='48px' paddingY='28px' size='lg' colorScheme='purple'> */}
             <Button
               as='a'
               href='/invite'
@@ -30,11 +29,9 @@ function Main() {
             >
               서버에 초대하기
             </Button>
-            {/* <Button leftIcon={<MdAutoStories />} paddingX='48px' paddingY='28px' size='lg' colorScheme='gray'> */}
             <Button
               as='a'
               href='https://docs.hayasebot.app/quickstart'
-              // onClick={() => alert('준비중입니다.')}
               leftIcon={<MdAutoStories />}
               paddingX={{ base: '12px', md: '24px', lg: '36px' }}
               paddingY={{ base: '7px', md: '14px', lg: '21px' }}
