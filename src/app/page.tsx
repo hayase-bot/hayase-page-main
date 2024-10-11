@@ -33,7 +33,7 @@ function Main() {
             {/* <Button leftIcon={<MdAutoStories />} paddingX='48px' paddingY='28px' size='lg' colorScheme='gray'> */}
             <Button
               as='a'
-              href='/quickstart'
+              href='https://docs.hayasebot.app/quickstart'
               // onClick={() => alert('준비중입니다.')}
               leftIcon={<MdAutoStories />}
               paddingX={{ base: '12px', md: '24px', lg: '36px' }}
