@@ -40,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='ko'>
-      <body className={pretendard.className}>
+      <body className={`${pretendard.className} antialiased`}>
         <Providers>
           {children}
         </Providers>
